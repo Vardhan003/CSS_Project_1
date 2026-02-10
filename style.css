@@ -1,0 +1,194 @@
+
+body{
+    background-color : #bfe3ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 60px;
+}
+
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+/* Basic button styles */
+.primary{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+.secondary{
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+.success{
+    background-color: #5CB85C;
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+.danger{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+
+/* Saisc Button Hover effects for buttons */
+.primary:hover {
+    background-color: #0056b3; /* darker blue */
+}
+
+.secondary:hover {
+    background-color: #545b62; /* darker gray */
+}
+
+.success:hover {
+    background-color: #1e7e34; /* darker green */
+}
+
+.danger:hover {
+    background-color: #bd2130; /* darker red */
+}
+
+
+/* Grouped buttons styles */
+.group{
+    background-color: #5CB85C;
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+}
+
+.group:hover {
+    background-color: #1e7e34; /* darker green */
+    transform: scale(1.05);
+}
+
+/* Modern button styles */
+.outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+.gradient {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border: none;
+    padding: auto 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+    backdrop-filter: blur(10px);
+}
+.shadow {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.rounded {
+    background-color: #5E2CA5;
+    color: white;
+    border: none;
+    padding: auto 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+}
+
+
+
+.outline:hover {
+    background-color: #007bff;
+    color: white;
+    transition: 300ms;
+}
+.gradient:hover {
+    background: linear-gradient(45deg, #f06595, #ff6b6b);
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.glass:hover {
+    color: #007bff;
+    transition: 300ms;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.shadow:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.rounded:hover {
+    background-color: #460c85;
+    transition: 300ms;
+}
